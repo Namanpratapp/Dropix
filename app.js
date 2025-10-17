@@ -175,7 +175,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <a href="mailto:dipanshu@dropixmedia.com" class="btn btn--primary modal-btn">
                             📧 Email Us
                         </a>
-                        <a href="tel:+91 8630727904" class="btn btn--ghost modal-btn">
+                        <a href="tel:" class="btn btn--ghost modal-btn">
                             📞 Call Now
                         </a>
                         <a href="https://www.instagram.com/dropixmedia_/" target="_blank" class="btn btn--ghost modal-btn">
