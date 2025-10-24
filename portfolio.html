@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Video Showcase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <!-- Portfolio Hero Section -->
+    <div class="hero">
+        <div class="hero__background">
+            <div class="floating-element floating-element--1"></div>
+            <div class="floating-element floating-element--2"></div>
+            <div class="floating-element floating-element--3"></div>
+            
+                  <div class="floating-element floating-element--4"></div>
+        </div>
+        <div class="container">
+            <div class="hero__content">
+                <h1 class="hero__title">
+                    Our <span class="gradient-text">Portfolio</span>
+                </h1>
+                <p class="hero__subtitle">
+                    A glimpse into the viral content we've crafted for our clients. 
+                    Each video tells a story, engages audiences, and drives real results.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Video Portfolio Grid Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="portfolio__grid">
+                <!-- Video Card 1 -->
+                <div class="video-card">
+                    <div class="video-thumbnail" onclick="playVideo(this)">
+                        <video class="video-preview" poster="" preload="metadata">
+                            <source src="vid 1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="play-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Video Card 2 -->
+                <div class="video-card">
+                    <div class="video-thumbnail" onclick="playVideo(this)">
+                        <video class="video-preview" poster="" preload="metadata">
+                            <source src="vid 2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="play-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Video Card 3 -->
+                <div class="video-card">
+                    <div class="video-thumbnail" onclick="playVideo(this)">
+                        <video class="video-preview" poster="" preload="metadata">
+                            <source src="vid 3.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="play-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Video Card 4 -->
+                <div class="video-card">
+                    <div class="video-thumbnail" onclick="playVideo(this)">
+                        <video class="video-preview" poster="" preload="metadata">
+                            <source src="vid 4.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="play-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Video Card 5 -->
+                <div class="video-card">
+                    <div class="video-thumbnail" onclick="playVideo(this)">
+                        <video class="video-preview" poster="" preload="metadata">
+                            <source src="vid 5.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="play-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Video Card 6 
+                <div class="video-card">
+                    <div class="video-thumbnail" onclick="playVideo(this)">
+                        <video class="video-preview" poster="" preload="metadata">
+                            <source src="vid 6.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="play-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <h3 class="video-card__title">Lifestyle Vlogger</h3>
+                </div> -->
+                
+            
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="final-cta">
+        <div class="container">
+            <h2 class="final-cta__title">Ready to Create Your Success Story?</h2>
+            <p class="final-cta__description">
+                Let's transform your content strategy and drive real results together.
+            </p>
+            <a href="#contact" class="btn btn--primary btn--large">Start Your Project</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <div class="logo">
+                        <span class="logo__text">Dropix Media</span>
+                    </div>
+                    <p class="footer__description">
+                        Transforming business leaders into social media brands through compelling video content.
+                    </p>
+                </div>
+               
+                <div>
+                    <h4 class="footer__title">Services</h4>
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">Video Editing</a></li>
+                        <li><a href="#" class="footer__link">Content Strategy</a></li>
+                        <li><a href="#" class="footer__link">Brand Development</a></li>
+                        <li><a href="#" class="footer__link">Analytics</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer__title">Contact</h4>
+                    <ul class="footer__list">
+                        <li><a href="mailto:info@dropixmedia.com" class="footer__link">ronit@dropixmedia.com</a></li>
+                        <li><a href="tel:+91-7452014055" class="footer__link">Phone no.</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__copyright">&copy; 2025 Dropix Media. All rights reserved.</p>
+                <div class="footer__social">
+                    <a href="https://www.instagram.com/dropixmedia_/" class="footer__social-link">Instagram</a>
+                    <a href="https://www.linkedin.com/in/dipanshu-yadav-56206a2bb/" class="footer__social-link">LinkedIn</a>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="app.js"></script>
+    <script>
+        // Video play functionality
+        function playVideo(thumbnail) {
+            const video = thumbnail.querySelector('.video-preview');
+            const playButton = thumbnail.querySelector('.play-button');
+
+            if (video.paused) {
+                video.play();
+                playButton.style.opacity = '0';
+                video.controls = true;
+            } else {
+                video.pause();
+                playButton.style.opacity = '1';
+                video.controls = false;
+            }
+
+            // Reset play button when video ends
+            video.addEventListener('ended', function() {
+                playButton.style.opacity = '1';
+                video.controls = false;
+            });
+
+            // Hide play button when playing
+            video.addEventListener('play', function() {
+                playButton.style.opacity = '0';
+            });
+
+            // Show play button when paused
+            video.addEventListener('pause', function() {
+                playButton.style.opacity = '1';
+            });
+        }
+    </script>
+</body>
+</html>
